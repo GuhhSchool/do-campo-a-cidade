@@ -58,8 +58,34 @@
     - atualizei o projeto no Figma com os novos designs para ter noção de como estava ficando
     - terminei por completo o css e html da página principal, porém sem animações
 
--30/05
+30/05
     - dia 29 e 30 peguei para pensar e colocar animações na página inicial
     - quase duplicou a quantidade de css que existia na página, e houve troca de designs que eu já tinha aplicado antes, para melhores
     - mudei os textos da categoria "Colhendo Oportunidades" para textos que tive mais convicções de não serem notícias falsas ou muito antigas, colocando a fonte nos próprios textos
     - com a página principal quase concluída, a próxima missão é criar o html e css da página dos produtos
+
+03/06
+    - desde a última atualização eu terminei o html e css das páginas dos produtos
+    - adicionei animação nessas páginas
+    - alterei a maioria dos textos de curiosidades dessas páginas para curiosidades que tenham fontes verídicas (todas as curiosidades tem um link da fonte ao clicar nelas)
+    - simplifiquei os arquivos css para apenas 3, mesmo tendo 10 páginas (já que o design das 9 páginas dos botões se repetem - me senti muito feliz por pensar numa solução tão simples)
+    - mesma coisa para js, usei apenas 2 arquivos já que a maior parte do código iria se repetir
+    - tirei fotos da cidade de Curitiba para a página principal ter originalidade (falta a foto do campo agora)
+    - reformulei vários textos da página principal para textos mais coesos e coerentes ao assunto do Agrinho desse ano (inclusive a sessão "Em 2023" foi trocada para "Agronegócio")
+    - criei um novo desing no Photoshop para a categoria Ponte (a ideia desse desenho foi sugestão da minha professora de Matemática 2 - Trilha de programação 2)
+    - enviei, pela primeira vez, hoje mesmo, o projeto para o GitHub num repositório privado para eu não perder meu progresso e mostrar meu progresso para algumas pessoas que eu gostaria de ter feedbacks
+    - minhas próximas missões são:
+        • fazer pequenas alterações no novo desenho (acho ele um pouco poluído de detalhes)
+        • alterar o texto da categoria Finalização para algo mais coerente ao tema desse ano
+        • site responsivel... meu medo (por ter que ser muito criativo na hora de alinhar os conteúdos)
+
+05/06
+    - fiz a alteração no desenho (aumentei a altura e diminuí a largura, removendo excessos de sementes e flores da tela)
+    - alterei o texto da categoria Finalização, aumentando para 5 parágrafos extremamentes importantes para mostrar onde quero chegar com o site. Corrigi a ortografia desses textos no programa LanguageTool.
+    - felizmente deixei todas as 10 páginas do site responsível para celulares:
+    	• para organizar melhor, copiei os 3 arquivos .css que tinha, editando para a versão mobile deles. Então há 6 arquivos .css
+	• modifiquei vários tamanhos de elemente que estavam no site para não ficarem estranhos em diferentes tipos de monitores.
+	• vale muito a pena conferir pois tem designs que só são visíveis na versão mobile
+	• passei um bom tempo ajustando essas coisas e outras que quase ninguém irá reparar, mas amo detalhar meus sites!
+    - pretendo agora deixar responsível para tablets
+    - e trocar as 3 imagens que faltam para imagens autorais

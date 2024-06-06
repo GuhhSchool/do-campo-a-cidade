@@ -3,21 +3,12 @@
 
 /* Armazenar Variáveis */
 :root {
-    --color-header: linear-gradient(90deg, #092311 0%, #020E02 100%);
     --color-hr: linear-gradient(90deg, #15BD30, #FFFFFF, #15BD30);
     --color-text-title-main: linear-gradient(60deg, #FFFFFF 0%, #15BD30 100%);
     --color-text-title-secundary: linear-gradient(60deg, #FFFFFF 0%, #42C8E5 100%);
-    --color-background-footer: #000B0E;
-    --color-background-primary: #001600;
-    --color-text-main: #FFFFFF;
-    --color-text-footer: #BFBFBF;
     --color-text-green: #15BD30;
     --color-text-blue: #42C8E5;
     --color-text-link: #4260e5;
-    --color-text-brown: #B24B00;
-    --color-transparent: #ffffff00;
-    --font-title: "K2D", sans-serif;
-    --font-text: "Kanit", sans-serif;
 }
 
 section {
@@ -81,7 +72,7 @@ section {
 }
 
 .div__content--item {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     width: 65vw;
@@ -119,7 +110,7 @@ section {
     position: absolute;
     width: 5px;
     height: 95%;
-    background-color: var(--color-text-green);
+    background-color: var(--color-text-blue);
     left: -6.25%;
     border-radius: 0px 10px 10px 0;
 }
@@ -194,7 +185,7 @@ section {
 .div__curiosidade h3::before {
     content: "";
     position: absolute;
-    width: 0%;
+    width: 0;
     height: 7%;
     background-color: var(--color-text-link);
     bottom: 5px;
@@ -205,7 +196,7 @@ section {
 }
 
 .div__curiosidade:hover h3::before {
-    width: 170px;
+    width: 100%;
 }
 
 /* ? ANIMAÇÕES */

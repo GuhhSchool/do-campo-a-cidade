@@ -1,0 +1,238 @@
+/* Armazenar Variáveis */
+:root {
+    --color-text-green: #15BD30;
+    --color-text-blue: #42C8E5;
+}
+
+/* ? Design para celulares */
+@media screen and (max-width: 768px) {
+    /* * Sessão: Start */
+    .div__start--imagens {
+        margin-top: 0px;
+    }
+
+    .img__start {
+        width: 60vw;
+    }
+
+    .div__start--imagens {
+        flex-direction: column-reverse;
+    }
+
+    .img__start--plantacao {
+        margin-right: 0;
+        box-shadow: 5px 5px 10px 5px #000000;
+    }
+
+    .img__start--cidade {
+        margin-left: 0;
+        box-shadow: 5px 5px 10px 5px #000000;
+    }
+
+    /* Transições */
+    .img__start--anim-1 {
+        transform: translateY(-100px);
+    }
+
+    .img__start--anim-2 {
+        transform: translateY(60px);
+    }
+
+    .div__start--anim {
+        position: relative;
+    }
+
+    .div__start--anim::before {
+        bottom: 5vw;
+        font-size: 15px;
+        width: 80vw;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    .div__start--anim:hover::before {
+        bottom: -8vw;
+        opacity: 1;
+    }
+
+    /* * Sessão: Oportunidades */
+    .section__oportunidades {
+        height: auto;
+        margin-bottom: 80px;
+    } 
+
+    .section__oportunidades h1 {
+        margin-bottom: 80px;
+    }
+
+    .div__oportunidades--textos {
+        flex-direction: column;
+        border-left: 1px solid var(--color-text-green);
+        border-right: 1px solid var(--color-text-green);
+        width: 75vw;
+        min-width: 75vw;
+        padding: 2vw 4vw;
+        position: relative;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .p__oportunidades--texto {
+        width: fit-content;
+    }
+
+    .p__oportunidades--texto-2 {
+        align-self: start;
+        margin-top: 40px;
+    }
+
+    .div__oportunidades--textos-conclusoes {
+        margin-top: 80px;
+        width: 75vw;
+        text-align: start;
+        border-left: 1px solid var(--color-text-blue);
+        border-right: 1px solid var(--color-text-blue);
+        padding: 2vw 4vw;
+        border-radius: 15px;
+    }
+
+    .p__oportunidades--conclusao {
+        margin-bottom: 40px;
+        width: fit-content;
+    }
+
+    .p__oportunidades--conclusao:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Transições */
+    .p__oportunidades--texto-1:hover, .p__oportunidades--texto-2:hover {
+        transform: translateX(0);
+    }
+
+    /* * Sessão: Efeito */
+    .div__efeito--arvores {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img__efeito--arvore {
+        width: 125px;
+    }
+
+    .img__efeito--arvore-2 {
+        display: none;
+    }
+
+    /* * Sessão: 2023 */
+    .div__2023--caixa {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .div__2023--textos {
+        width: 80vw;
+        min-width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .div__2023--image-anim {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__2023--imagem {
+        width: 80vw;
+    }
+
+    /* * Sessão: Ponte */
+    .div__ponte--content {
+        width: 90%;    
+    }
+
+    .div__ponte-textos {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .p__ponte-texto {
+        width: 60vw;
+        min-width: 60vw;
+        font-size: 20px;
+    }
+
+    .div__ponte--imagem {
+        width: 15vw;
+    }
+
+    .img__ponte--producao {
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    /* * Sessão: percurso */
+    .div__percurso--botoes {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    .button__percurso {
+        width: 30vw;
+        height: 40vw;
+        margin: 40px 30px;
+        margin-bottom: 60px;
+    }
+
+    .button-2, .button-5, .button-8 {
+        grid-column: span 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .button__percurso p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .img__percurso--button {
+        width: 13vw;
+    }
+
+    /* Transições */
+    .button__percurso:hover img {
+        width: 16vw;
+    }
+
+    /* * Sessão: finalização */
+    .div__finalizacao--textos {
+        width: 80vw;
+    }
+
+    .p__finalizacao--texto {
+        width: 80vw;
+        margin: 0;
+    }
+
+    .img__finalizacao--detalhe {
+        width: 80vw;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .p__finalizacao--texto:last-child {
+        margin-bottom: 0px;
+    }
+
+    .div__finalizacao--exemplo {
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .div__finalizacao--exemplo p, .div__finalizacao--exemplo span {
+        font-size: 20px; 
+    }
+}

@@ -20,7 +20,11 @@ const buttonArray = Object.keys(buttonLinks);
 
 function clickButton(button) {
     const buttonIndex = Number(button.currentTarget.classList[3].replace('button-', ''));
-    window.open(`./percurso/${buttonArray[buttonIndex]}.html`, '_self');    
+
+    button.currentTarget.classList.add('button__percurso--click');
+    document.body.style.opacity = 0;
+    
+    setTimeout(() => window.open(`./percurso/${buttonArray[buttonIndex]}.html`, '_self'), 1000);
 };
 
 // Configurar url das curiosidades

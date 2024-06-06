@@ -36,18 +36,18 @@
 .img__start {
     width: 26vw;
     border-radius: 10px;
-    margin-top: 3.55vw;
+    margin-top: 50px;
 }
 
 .img__start--plantacao {
     position: relative;
-    margin-right: 1vw;
+    margin-right: 13px;
     box-shadow: 5px 5px 10px 5px #000000;
 }
 
 .img__start--cidade {
     position: relative;
-    margin-left: 1vw;
+    margin-left: 13px;
 }
 
 /* Transições */
@@ -90,8 +90,7 @@
     transform: translate(10vw, -25px);
 }
 
-.div__start--anim-1::before {
-    content: "Av. Sete de Setembro,  Centro - Curitiba";
+.div__start--anim::before {
     position: absolute;
     transform: translateY(4vw);
     opacity: 0;
@@ -99,7 +98,15 @@
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.div__start--anim-1:hover::before {
+.div__start--anim-1::before {
+    content: "Av. Sete de Setembro,  Centro - Curitiba";
+}
+
+.div__start--anim-2::before {
+    content: "Desconhecido - FreePik";
+}
+
+.div__start--anim:hover::before {
     transform: translateY(0);
     opacity: 1;
 }
@@ -108,15 +115,17 @@
 .section__oportunidades {
     justify-content: space-between;
     font-size: 24px;
-    height: 40vw;
-    margin-bottom: 10vw;
+    margin-bottom: 130px;
 }
 
 .div__oportunidades--textos {
     display: flex;
+    width: 75vw;
+    min-width: 850px;
     justify-content: space-between;
     flex-direction: row;
-    width: 65vw;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .p__oportunidades--texto {
@@ -183,14 +192,14 @@
 }
 
 .h1__2023-title {
-    margin-bottom: 8vw;
+    margin-bottom: 104px;
 }
 
 .div__2023--caixa {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 17vw;
+    margin-bottom: 221px;
 }
 
 .div__2023--caixa-1 {
@@ -209,7 +218,8 @@
 }
 
 .div__2023--textos {
-    width: 28vw;
+    max-width: 28vw;
+    min-width: 400px;
     margin-right: 100px;
     font-size: 24px;
 }
@@ -256,11 +266,17 @@
 .p__ponte-texto {
     font-size: 24px;
     width: 30vw;
+    min-width: 400px;
     margin-bottom: 80px;
 }
 
+.div__ponte--imagem {
+    width: 50px;
+}
+
 .img__ponte--producao {
-    width: 15vw;
+    width: 120%;
+    transform: translateY(-30px);
     align-self: self-start;
 }
 
@@ -269,9 +285,11 @@
     background-color: var(--color-background-tertiary);
     margin-bottom: 0;
     padding-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
-.section__percurso h2 {
+.section__percurso h1 {
     margin-bottom: 75px;
 }
 
@@ -279,7 +297,7 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     align-items: center;
-    margin-bottom: 10vw;
+    margin-bottom: 130px;
 }
 
 .button__percurso {
@@ -290,22 +308,22 @@
     background-color: transparent;
     border: none;
     border-radius: 10px;
-    margin: 6vw 7vw;
-    width: 12vw;    
-    height: 16vw;
+    width: 150px;    
+    height: 230px;
+    margin: 80px;
     cursor: pointer;
 }
 
 .button__percurso p {
-    font-size: 24px;
+    font-size: 2vw;
     font-weight:500;
 }
 
 .img__percurso--button {
     position: absolute;
     top: 15%;
-    width: 5vw;
-    margin-top: 4vw;
+    width: 70px;
+    margin-top: 52px;
 }
 
 /* Transições */
@@ -339,17 +357,17 @@
 }
 
 .button__percurso-anim {
-    background-image: linear-gradient(90deg, var(--color-text-green) 10%, #ffffff00 10%, #ffffff00 90%, var(--color-text-green) 90%, var(--color-text-green) 100%);
+    background-image: linear-gradient(90deg, var(--color-text-green) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-green) 90%, var(--color-text-green) 100%);
     border-right: 1px solid var(--color-text-green);
 }
 
 .button__percurso-anim-2 {
-    background-image: linear-gradient(90deg, var(--color-text-brown) 10%, #ffffff00 10%, #ffffff00 90%, var(--color-text-brown) 90%, var(--color-text-brown) 100%);
+    background-image: linear-gradient(90deg, var(--color-text-brown) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-brown) 90%, var(--color-text-brown) 100%);
     border-right: 1px solid var(--color-text-brown);
 }
 
 .button__percurso-anim-3 {
-    background-image: linear-gradient(90deg, var(--color-text-blue) 10%, #ffffff00 10%, #ffffff00 90%, var(--color-text-blue) 90%, var(--color-text-blue) 100%);
+    background-image: linear-gradient(90deg, var(--color-text-blue) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-blue) 90%, var(--color-text-blue) 100%);
     border-right: 1px solid var(--color-text-blue);
 }
 
@@ -358,7 +376,7 @@
 }
 
 .button__percurso:hover img {
-    width: 6vw;
+    width: 80px;
 }
 
 .div__percurso--botoes button::after {
@@ -381,6 +399,10 @@
     background-size: 0;
 }
 
+.button__percurso--click img {
+    animation: button-click 0.5s
+}
+
 /* * Sessão: Finalização */
 .section__finalizacao {
     background-color: var(--color-background-tertiary);
@@ -388,7 +410,7 @@
     padding-top: 40px;
 }
 
-.h2__finalizacao--title {
+.h1__finalizacao--title {
     margin-bottom: 80px;
 }
 
@@ -396,12 +418,12 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 42vw;
+    width: 50vw;
 }
 
 .p__finalizacao--texto {
-    width: 30vw;
-    font-size: 24px;
+    width: 40vw;
+    font-size: 22px;
     margin-bottom: 80px;
 }
 
@@ -409,11 +431,16 @@
     align-self: end;
 }
 
+.img__finalizacao--detalhe {
+    display: none;
+}
+
+
 .div__finalizacao--exemplo {
     margin-top: 20px;
+    margin-bottom: 135px;
     border: 1px solid var(--color-text-green);
     border-radius: 7px;
-    margin-bottom: 135px;
     cursor: pointer;    
 }
 
@@ -427,7 +454,7 @@
 }
 
 /* Transições */
-.h2__finalizacao--dash-anim {
+.h1__finalizacao--dash-anim {
     animation: think 0.5s ease-in-out 1s infinite forwards alternate;
 }
 
@@ -465,5 +492,15 @@
 @keyframes up {
     to {
         transform: translateY(100px);
+    }
+}
+
+@keyframes button-click {
+    50% {
+        transform: translateY(-1vw);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
