@@ -41,6 +41,7 @@
 
     .div__header--itens {
         width: 100%;
+        min-width: 100%;
         display: grid;
         grid-template-columns: 30% 70%;
         justify-content: space-around;
@@ -119,5 +120,29 @@
             transform: scale(1);
             background-position-y: -7vw;
         }
+    }
+}
+
+/* ? Design para tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* ? Configurações Globais */
+    h1 {
+        font-size: 60px;
+    }
+    
+    p {
+        font-size: 30px;
+    }
+
+    /* ? SESSÕES */
+    /* * Sessão: Header */
+    header {
+        margin-bottom: 100px;
+    }
+
+    /* * Sessão: Footer */
+    .div__footer {
+        width: 90vw;
+        min-width: 400px;
     }
 }

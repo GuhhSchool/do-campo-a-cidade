@@ -36,6 +36,6 @@ pontuação
     - texto, som e imagem autoral
     - imagem e som com texto alt
     - ser acessível pelo github (deixar amotra bonita)
-    - arquivo read.me
+    - arquivo Read.me
     - estar no github pages
     - link do projeto e tópico "agrinho" na sessão "about"

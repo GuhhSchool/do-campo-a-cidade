@@ -99,11 +99,11 @@
 }
 
 .div__start--anim-1::before {
-    content: "Av. Sete de Setembro,  Centro - Curitiba";
+    content: "Espaço urbano na cidade de Curitiba";
 }
 
 .div__start--anim-2::before {
-    content: "Desconhecido - FreePik";
+    content: "Espaço rural na cidade de Campo Largo";
 }
 
 .div__start--anim:hover::before {
@@ -381,12 +381,12 @@
 
 .div__percurso--botoes button::after {
     content: "";
-    width: 100%;
-    height: 100%;
     background-image: url('../icons/fechadura.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
+    width: 100%;
+    height: 8%;
     background-size: 8%;
     background-position: 100% 99%; 
     bottom: 50%;

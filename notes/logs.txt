@@ -87,5 +87,13 @@
 	• modifiquei vários tamanhos de elemente que estavam no site para não ficarem estranhos em diferentes tipos de monitores.
 	• vale muito a pena conferir pois tem designs que só são visíveis na versão mobile
 	• passei um bom tempo ajustando essas coisas e outras que quase ninguém irá reparar, mas amo detalhar meus sites!
+    - enviei o projeto para o meu repositório no Github (GuhhSchool) para salvar meu progresso (criei essa mensagem depois de enviar)
     - pretendo agora deixar responsível para tablets
     - e trocar as 3 imagens que faltam para imagens autorais
+
+06/06
+    - troquei a imagem da cidade para outra que uma amiga minha tirou, no centro de Curitiba
+    - fiz completamente a versão para tablets nos próprios arquivos de css responsivel
+    - nessa versão tablet, há recursos da versão desktop junto com recursos da versão mobile, onde vi que melhor se encaixaria
+    - vou enviar novamente para o Github
+    - preciso fazer testes em diferentes dispositivos reais para ver se o design ficou ideal
