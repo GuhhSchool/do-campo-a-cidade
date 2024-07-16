@@ -111,9 +111,32 @@
         transform: translateX(0);
     }
 
+    /* * Sessão: History */
+    .section__history {
+        margin-bottom: 140px;
+    }
+
+    .section__history img {
+        position: absolute;
+    }
+
+    .div__history--content {
+        position: relative;
+    } 
+
+    .img__history--1 {
+        left: 10%;
+        bottom: 5%;
+    }
+
+    .img__history--2 {
+        right: 10%;
+        bottom: 5%;
+    }
+
     /* * Sessão: Efeito */
     .div__efeito--arvores {
-        width: 100vw;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
@@ -210,6 +233,7 @@
     /* * Sessão: finalização */
     .div__finalizacao--textos {
         width: 80vw;
+        align-items: center;
     }
 
     .p__finalizacao--texto {
@@ -373,9 +397,28 @@
         transform: translateX(0);
     }
 
+    /* * Sessão: History */
+    .section__history img {
+        position: absolute;
+    }
+
+    .div__history--content {
+        position: relative;
+    } 
+
+    .img__history--1 {
+        left: 15%;
+        bottom: 5%;
+    }
+
+    .img__history--2 {
+        right: 15%;
+        bottom: 5%;
+    }
+
     /* * Sessão: Efeito */
     .div__efeito--arvores {
-        width: 80vw;
+        width: 70vw;
         transform: translateY(50px);
     }
 
@@ -442,7 +485,7 @@
     }
 
     .img__2023--anim:hover {
-        box-shadow: 30px 20px 5px 5px rgb(0, 0, 0);
+        box-shadow: 15px 10px 5px 5px rgb(0, 0, 0);
     }
 
     /* * Sessão: Ponte */
@@ -558,20 +601,14 @@
     }
 
     .div__finalizacao--textos {
-        width: 100vw;
+        width: 80vw;
         align-items: center;
     }
 
     .p__finalizacao--texto {
-        width: 70vw;
+        width: 80vw;
         font-size: 30px;
         margin-bottom: 40px;
-        transform: translateX(-5vw);
-    }
-
-    .p__finalizacao--texto-2 {
-        align-self: center;
-        transform: translateX(5vw);
     }
 
     .img__finalizacao--detalhe {

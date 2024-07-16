@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Start -->
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Designs -->
+    <title> História | Do Campo à Cidade</title>
+
+    <!-- Link -->
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/standard-resp.css">
+    <link rel="stylesheet" href="./styles/history.css">
+    <link rel="icon" href="./assets/logo 1.png">
+</head>
+
+<!-- Itens -->
+<body>
+    <!-- Cabeçalho -->
+    <header class="header-anim">
+        <div class="div__header--itens">
+            <img class="img__header--logo img__header--logo-anim" onclick="backToTop(false)" src="../icons/logo.png" alt="Desenho de uma flor em um vaso estampado numa maleta marrom">
+
+            <nav class="nav__header--textos nav__header--textos-anim">
+                <a class="a__header--texto a__header--texto-anim" href="../index.html">Início</a>
+                <a class="a__header--texto a__header--texto-anim" href="../history.html">Criar nova história</a>
+            </nav>  
+        </div>
+    </header>
+    
+    <!-- Caixa -->
+    <div class="div--main">
+        <div class="div--anim-background"></div>
+
+        <!-- Título-->
+        <h2 class="h2--title">A Relação da Tecnologia</h2>
+
+        <!-- Texto -->
+        <p class="p--text"></p>
+        
+        <!-- Botões de alternativas -->
+        <div class="div--buttons"></div>
+
+        <!-- Textos de resultado-->
+        <div class="div--result"><p class="p--result-text"></p></div>
+        
+        <!-- Inserir nome -->
+        <div class="div--input">
+            <input class="input--name" maxlength="25" minlength="3" placeholder="Insira um nome" type="text"></input>
+            <button class="button--send" alt="Botão de enviar">➢</button>
+        </div>
+
+        <!-- Botões de interações-->
+        <div class="div--interactions">
+            <button class="button--share">🔗 | Compartilhar a história</button>
+            <button class="button--retry">✨ | Criar uma nova história</button>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="div__footer">
+            <img src="../icons/logo.png" onclick="backToTop(false)" alt="Desenho de uma flor em um vaso estampado numa maleta marrom" class="img__footer--logo img__footer--logo-anim">
+
+            <div class="div__footer--textos">
+                <p>Projeto feito com carinho para o <a class="color-green decore-link" target="_blank" href="https://www.sistemafaep.org.br/agrinho/">Programa Agrinho</a></p>
+                <p>Por <a class="color-blue decore-link" href="https://github.com/GuhhSchool" target="_blank">Gustavo Proença</a></p>
+            </div>
+
+            <button type="button" onclick="backToTop(true)" class="button__footer--voltar button__footer--voltar-anim">
+                <span class="span__footer--icone-voltar span__footer--icone-voltar-anim"></span>
+                <p class="p__footer--voltar">ir ao topo</p>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./scripts/classes.js"></script>
+    <script type="module" src="./scripts/stories.js"></script>
+    <script type="module" src="./scripts/history.js"></script>
+    <script src="./scripts/main.js"></script>    
+    <script src="./scripts/standard.js"></script>
+</body>
+</html>

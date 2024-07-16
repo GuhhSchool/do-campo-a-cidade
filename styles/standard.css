@@ -1,4 +1,3 @@
-/* Estilizações padrões */
 /* Armazenar Variáveis */
 :root {
     --color-header: linear-gradient(90deg, #092311 0%, #020E02 100%);
@@ -47,18 +46,21 @@ section {
 
 footer {
     background-color: var(--color-background-footer);
+    width: 100%;
 }
 
 h1 {
     font-family: var(--font-title); 
     font-size: 48px;
     text-align: center;
+    width: 90%;
 }
 
 h2 {
     font-family: var(--font-title); 
     font-size: 42px;
 }
+
 
 .color-green {
     color: var(--color-text-green);

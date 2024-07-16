@@ -115,7 +115,7 @@
 .section__oportunidades {
     justify-content: space-between;
     font-size: 24px;
-    margin-bottom: 130px;
+    margin-bottom: 180px;
 }
 
 .div__oportunidades--textos {
@@ -159,6 +159,113 @@
 
 .p__oportunidades--texto-2:hover {
     transform: translateX(20px);
+}
+
+/* * Sessão História */
+.section__history {
+    position: relative;
+    padding-top: 70px;
+}
+
+.section__history h1 {
+    margin-bottom: 120px;
+}
+
+.div__history--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.div__history--caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 700px; 
+    max-width: 75vw;
+    font-size: 24px;
+    border: 2px solid var(--color-text-green);
+    border-radius: 10px;
+}
+
+.p__history--texto {
+    margin-bottom: 2em;
+}
+
+.section__history img {
+    height: 10vw;
+    align-items: center;
+}
+
+.button__history--iniciar {
+    background-color: transparent;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+
+    transition: transform 0.25s, height 0.5s;
+}
+
+/* Transições */
+.button__history--iniciar::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 2px solid var(--color-text-blue);
+    background-color: var(--color-background-tertiary);
+    z-index: -1;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+
+    transition: height 0.25s 0.25s, opacity 0.25s 0.25s, border-radius 0.25s;
+}
+
+.button__history--iniciar::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 2px solid var(--color-text-green);
+    background-color: var(--color-background-secundary-backup);
+    z-index: -1;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    width: 0;
+    opacity: 0;
+
+    transition: width 0.5s 0.5s, opacity 0.5s 0.5s, border-radius 0.25s 1s;
+}
+
+.button__history--iniciar:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.button__history--iniciar:hover::after {
+    height: 0%;
+    border-radius: 0%;
+}
+
+.button__history--iniciar:hover::before {
+    width: 100%;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.section__history img { 
+    animation: decrease-increase 2s ease-in-out infinite alternate-reverse;
 }
 
 /* * Sessão: Efeito */
@@ -240,7 +347,7 @@
 
 .img__2023--anim:hover {
     transform: scale(1.1);
-    box-shadow: 60px 40px 10px 10px rgb(0, 0, 0);
+    box-shadow: 30px 20px 10px 10px rgb(0, 0, 0);
 }
 
 /* * Sessão: Ponte */
@@ -502,5 +609,15 @@
 
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes decrease-increase {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
     }
 }

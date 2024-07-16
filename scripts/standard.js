@@ -1,5 +1,5 @@
 // Voltando ao topo
 function backToTop(continuar) {
-    if (continuar) window.open('#', '_self');
+    if (continuar) document.documentElement.scrollTop = 0;
     else window.open('../#', '_self');
 }

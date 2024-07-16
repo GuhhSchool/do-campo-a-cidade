@@ -1,6 +1,7 @@
 // Buscar elementos
 const buttons = document.querySelectorAll('.button__percurso');
 const div = document.querySelector('.div__curiosidade');
+const historyButton = document.querySelector('.button__history--iniciar');
 
 // Configurar url dos botões
 const buttonLinks = {
@@ -31,6 +32,10 @@ function clickButton(button) {
 if (div) div.onclick = openLink;
 
 function openLink(button) {
-    const currentPage = window.location.pathname.replace('/percurso/', '').replace('.html', '');
+    // const currentPage = window.location.pathname.replace('/percurso/', '');
+    // const currentPage = window.location.pathname.slice(window.location.pathname.lastIndexOf('/') + 1).replace('.html', '');
+    const currentPage = window.location.pathname.split('/').pop().replace('.html', '');
     window.open(buttonLinks[currentPage]);
 }
+
+if (historyButton) historyButton.onclick = () => window.open('history.html', '_self');
