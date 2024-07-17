@@ -45,7 +45,7 @@
     .div__start--anim::before {
         bottom: 5vw;
         font-size: 15px;
-        width: 80vw;
+        width: 80%;
         opacity: 0;
         transition: all 0.5s;
     }

@@ -43,7 +43,7 @@ new CreateHistoryClass({
     ],
 });
 
-// Vida no Campo - id: 4 
+// Vida no Campo - id: 4
 new CreateHistoryClass({
     id: 4,
     history: 'Vendo sua família diariamente cuidando da roça, G{nome} cresceu amando o campo com orgulho.',
@@ -217,7 +217,7 @@ new CreateHistoryClass({
 
 new CreateHistoryClass({
     id: 17,
-    history: 'Chegando na empresa onde G{nome} venderá a soja, ela oferece um contrato de parceria rural com duração de três anos.',
+    history: 'Chegando na empresa onde G{nome} venderá a soja, vê que aquele seu antigo amigo é dono dela. Vendo isso, ele oferece um contrato de parceria rural com duração de três anos com a empresa dele.',
 
     buttons: [{
         question: 'Continuar ➤',
@@ -227,27 +227,27 @@ new CreateHistoryClass({
 
 new CreateHistoryClass({
     id: 18,
-    history: 'A empresa propõe o empréstimo de colheitadeiras modernas em troca de um menor preço pela soja e a venda exclusiva para essa empresa.',
+    history: 'A empresa propõe o empréstimo de colheitadeiras modernas em troca de um menor preço pela soja e a venda exclusiva para a empresa dele.',
 
     buttons: [
         {
             question: 'Recusar a proposta - querem muito em troca de pouco',
             to: 100,
             ref: 'true', 
-            reply: 'Ao chegar na empresa onde irá vender os produtos, G{nome} recusou um contrato de parceria oferecido, pois considerou ser uma prática muito abusiva da empresa, onde disponibilizava muita soja em troca de poucos recursos.G{space}Após isso, começa a cultivar mais soja seguindo o mesmo método de plantio que considerou o mais útil e, aos poucos, foi vendendo para diversas empresas.G{space}Com o passar dos anos, G{nome} finalmente compra uma nova colheitadeira, que demorou um pouco para ser comprada por conta dos frequentes reparos à antiga máquina de seu pai. G{space}E finalmente segue sua carreira sendo uma pessoa conservadora, recusando palpites alheios e tendo uma vida tranquila no campo com sua família como sempre sonhou.',
+            reply: 'Ao chegar na empresa onde irá vender a soja, viu que seu antigo amigo é dono. Ele ofereceu uma proposta, mas G{nome} recusou o contrato de parceria oferecido, pois considerou ser uma prática muito abusiva da empresa dele, onde disponibilizava muita soja em troca de poucos recursos da empresa.G{space}Após isso, começa a cultivar mais soja seguindo o mesmo método de plantio que considerou o mais útil e, aos poucos, foi vendendo para diversas empresas.G{space}Com o passar dos anos, G{nome} finalmente compra uma nova colheitadeira, que demorou um pouco para ser comprada por conta dos frequentes reparos à antiga máquina de seu pai. G{space}E finalmente segue sua carreira sendo uma pessoa conservadora, recusando palpites alheios e tendo uma vida tranquila no campo com sua família como sempre sonhou.',
         },
         {
             question: 'Aceitar a proposta - o contrato parece interessante',
             to: 102,
             ref: 'false', 
-            reply: 'Ao chegar na empresa onde irá vender os produtos, G{nome} aceitou um contrato de parcerias e, feliz por ter novas máquinas pelo contrato, cultiva mais soja e as colhe seguindo o mesmo método de plantio que achou interessante.G{space}Economizando o dinheiro, G{nome} abre uma empresa e contrata novos agricultores para operar algumas das colheitadeiras também oferecidas pelo contrato.G{space}Com o passar dos anos, com o fim do contrato, G{nome} abre novas parcerias com outras empresas que impulsionam sua carreira no campo, que consegue mais terras, trabalhadores e diferentes tipos de plantações.G{space}G{nome} consegue uma vida rica no campo, assim como era em seu sonho de infância.',
+            reply: 'Ao chegar na empresa onde irá vender a soja, G{nome} viu que seu antigo amigo é dono. Ele ofereceu um contrato de parceria e G{nome} aceitou rapidamente, pois viu que seria uma grande oportunidade para seu futuro.G{space}Feliz por ter novas máquinas pelo contrato, G{nome} cultiva mais sojas e as colhe seguindo o mesmo método de plantio que achou interessante.G{space}Economizando o dinheiro, G{nome} abre uma empresa e contrata novos agricultores para operar algumas das colheitadeiras também oferecidas pelo contrato.G{space}Com o passar dos anos, com o fim do contrato, G{nome} abre novas parcerias com outras empresas que impulsionam sua carreira no campo, que consegue mais terras, trabalhadores e diferentes tipos de plantações.G{space}G{nome} consegue uma vida rica no campo, assim como era em seu sonho de infância.',
         },
     ],
 });
 
 new CreateHistoryClass({
     id: 100,
-    history: 'G{nome} recusa a proposta da empresa e começa a cultivar mais soja seguindo o mesmo método de plantio. Aos poucos foi vendendo para diversas empresas.',
+    history: 'G{nome} recusa a proposta da empresa do amigo e começa a cultivar mais soja seguindo o mesmo método de plantio. Aos poucos foi vendendo para diversas empresas.',
 
     buttons: [{
         question: 'Continuar ➤',
@@ -266,7 +266,7 @@ new CreateHistoryClass({
 
 new CreateHistoryClass({
     id: 102,
-    history: 'G{nome} aceita a proposta da empresa e, feliz por ter novas máquinas, cultiva mais soja e as colhe seguindo o mesmo método de plantio que achou interessante.',
+    history: 'G{nome} aceita a proposta da empresa do amigo e, feliz por ter novas máquinas, cultiva mais soja e as colhe seguindo o mesmo método de plantio que achou interessante.',
 
     buttons: [{
         question: 'Continuar ➤',
@@ -574,7 +574,7 @@ new CreateHistoryClass({
             question: 'Aceitar parceria - ter planos para a soja',
             to: 45,
             ref: 'true',
-            reply: 'Por incentivo dos pais, G{nome} abriu uma empresa para continuar seu grande trabalho com as colheitadeiras. E, entre as vendas, G{nome} aceitou fazer uma parceria com aquele antigo amigo, pois teve ideias de revender a soja dele por um preço abaixo do mercado.G{space}Isso manteve uma margem de lucro para comprar e vender tranquilamente novas colheitadeiras, criando assim um parceiro fixo caso as vendas na empresa complique.G{space}Em pouco tempo G{nome} conseguiu fama, expandindo seu trabalho contratando mais funcionários e comprando várias máquinas de uma só vez.G{space}Por conta dessa decisão, G{nome} fez grandes parcerias já que experimentou isso no passado, fortalecendo relações entre o campo e cidade e tendo seu grande sonho de infância realizado.'
+            reply: 'Por incentivo dos pais, G{nome} abriu uma empresa para continuar seu grande trabalho com as colheitadeiras. E, entre as vendas, G{nome} aceitou fazer uma parceria com aquele antigo amigo, pois teve ideias de revender a soja dele por um preço abaixo do mercado.G{space}Isso manteve uma margem de lucro para comprar e vender tranquilamente novas colheitadeiras, criando assim um parceiro fixo caso as vendas na empresa compliquem.G{space}Em pouco tempo G{nome} conseguiu fama, expandindo seu trabalho contratando mais funcionários e comprando várias máquinas de uma só vez.G{space}Por conta dessa decisão, G{nome} fez grandes parcerias já que experimentou isso no passado, fortalecendo relações entre o campo e cidade e tendo seu grande sonho de infância realizado.'
         },
         {
             question: 'Recusar parceria - só trabalhar com máquinas',
