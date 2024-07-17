@@ -38,4 +38,4 @@ function openLink(button) {
     window.open(buttonLinks[currentPage]);
 }
 
-if (historyButton) historyButton.onclick = () => window.open('history.html', '_self');
+if (historyButton) historyButton.onclick = () => window.open('historia.html', '_self');
