@@ -14,5 +14,10 @@ Pensando nisso, foi criado este projeto para destacar a importância tanto da á
 > [!IMPORTANT]
 > • Projeto concluído totalmente por [Gustavo Proença](https://github.com/GuhhSchool). </br>
 > • Nas residências de Campo Largo - Região Metropolitana de Curitiba
-> 
+</br>
+
+> [!TIP]
+> • Site: https://guhhschool.github.io/do-campo-a-cidade/ </br>
+> • Figma: https://www.figma.com/design/FPy5YPllk3mteqdoJRDsRF/do-campo-a-cidade </br>
+> • Figjam:
 [^1]: Agronegócio: todo trabalho produtivo, desde a criação até a distribuição de um produto agrícola.
