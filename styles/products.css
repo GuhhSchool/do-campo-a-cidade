@@ -131,6 +131,7 @@ section {
 .ol__content--sub-topics h4 {
     background-image: var(--color-text-title-secundary);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     position: relative;
     display: flex;
@@ -175,6 +176,7 @@ section {
 .div__curiosidade h3 {
     background-image: var(--color-text-title-secundary);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
 }
 
