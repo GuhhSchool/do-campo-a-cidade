@@ -81,6 +81,7 @@ section {
 .div__content--item h3 {
     background-image: var(--color-text-title-main);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     position: relative;
     display: flex;
