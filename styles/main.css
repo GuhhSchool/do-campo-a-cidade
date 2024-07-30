@@ -149,8 +149,27 @@
 }
 
 /* Transições */
+.p__oportunidades--1-pre {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.p__oportunidades--2-pre {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.p__oportunidades--3-pre, .p__oportunidades--4-pre {
+    opacity: 0;
+}
+
+
 .div__oportunidades--textos p {
-    transition: transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.p__oportunidades--conclusao {
+    transition: opacity 0.5s;
 }
 
 .p__oportunidades--texto-1:hover {
@@ -329,6 +348,9 @@
     min-width: 400px;
     margin-right: 100px;
     font-size: 24px;
+    opacity: 1;
+
+    transition: opacity 0.5s, transform 0.5s;
 }
 
 .div__2023--textos-1 {
@@ -341,6 +363,20 @@
 }
 
 /* Transições */
+.div__2023--textos p {
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.p__2023--pre-1 {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.p__2023--pre-2 {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
 .img__2023--anim {
     transition: transform 0.5s, box-shadow 0.25s;
 }
