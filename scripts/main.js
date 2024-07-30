@@ -1,7 +1,8 @@
 // Buscar elementos
+const historyButton = document.querySelector('.button__history--iniciar');
 const buttons = document.querySelectorAll('.button__percurso');
 const div = document.querySelector('.div__curiosidade');
-const historyButton = document.querySelector('.button__history--iniciar');
+const bodyIndex = document.getElementById('body__index');
 
 // Configurar url dos botões
 const buttonLinks = {
@@ -15,10 +16,12 @@ const buttonLinks = {
     couro: 'https://www.afe.com.br/artigos/couro-de-peixe-conheca-uma-maneira-de-expandir-sua-renda',
     ovo: 'https://blog.mantiqueirabrasil.com.br/ovo-na-geladeira/#:~:text=Nas%20geladeiras%20dom%C3%A9sticas%2C%20o%20indicado%20%C3%A9%20que%20eles%20fiquem%20em%20uma%20temperatura%20m%C3%A9dia%20de%2010%E2%80%AF%C2%B0C.%C2%A0',
 };
-
-buttons.forEach((button) => button.onclick = clickButton);
 const buttonArray = Object.keys(buttonLinks);
 
+// Registrar evento de cliques
+buttons.forEach((button) => button.onclick = clickButton);
+
+// Evento de clique
 function clickButton(button) {
     const buttonIndex = Number(button.currentTarget.classList[3].replace('button-', ''));
 
@@ -38,4 +41,51 @@ function openLink(button) {
     window.open(buttonLinks[currentPage]);
 }
 
+// Se clicar no botão de iniciar história
 if (historyButton) historyButton.onclick = () => window.open('historia.html', '_self');
+
+// Configurando efeito de fade in nas sessões
+if (bodyIndex) {
+    const sectionOportunidades = document.querySelector('.section__oportunidades');
+    const sectionAgronegocio = [document.querySelector('.p__2023--pre-1'), document.querySelector('.p__2023--pre-2')];
+    const windowLimit = window.innerHeight;
+    bodyIndex.onscroll = verifyPosition;
+
+    // Verifica se a posição da sessão está visível na tela
+    let disabled = false;
+
+    function verifyPosition() {
+        // Sessão "oportunidades"
+        if (!disabled && sectionOportunidades.getBoundingClientRect().y <= (windowLimit / 2)) startOportunidadesAnimation();
+        
+        // Sessão "Agronegócio"
+        sectionAgronegocio.forEach((element, index) => {
+            if (element.getBoundingClientRect().y <= (windowLimit / 1.5)) startAgronegocioAnimation(index);
+        })
+    }
+
+    // Inicia a animação da sessão "oportunidades"
+    async function startOportunidadesAnimation() {
+        disabled = true;
+
+        const delay = (ms) => new Promise(res => setTimeout(res, ms));
+        const firstParag = document.querySelector('.p__oportunidades--1-pre');
+        const secondParag = document.querySelector('.p__oportunidades--2-pre');
+        const thirdParag = document.querySelector('.p__oportunidades--3-pre');
+        const fourthParag = document.querySelector('.p__oportunidades--4-pre');
+
+        firstParag.classList.remove('p__oportunidades--1-pre');
+        await delay(500);
+        secondParag.classList.remove('p__oportunidades--2-pre');
+        await delay(500);
+        thirdParag.classList.remove('p__oportunidades--3-pre');
+        await delay(250);
+        fourthParag.classList.remove('p__oportunidades--4-pre');
+    }
+
+    // Inicia as animações da sessão "agronegócio"
+    function startAgronegocioAnimation(index) {
+        sectionAgronegocio[index].classList.remove(`p__2023--pre-${index + 1}`);
+        if (index == 1) bodyIndex.onscroll = null;
+    }
+} 
