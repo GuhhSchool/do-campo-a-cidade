@@ -19,5 +19,5 @@ Pensando nisso, foi criado este projeto para mostrar as etapas e destacar a impo
 > [!TIP]
 > • Site: https://guhhschool.github.io/relacao-campo-e-cidade/ </br>
 > • Figma: https://www.figma.com/design/FPy5YPllk3mteqdoJRDsRF/do-campo-a-cidade </br>
-> • Diagrama: https://www.figma.com/board/6qut2a9QQAkly1WRNcoOqf/diagrama-da-historia <\br>
+> • Fluxograma: https://www.figma.com/board/6qut2a9QQAkly1WRNcoOqf/diagrama-da-historia <\br>
 [^1]: Agronegócio: todo trabalho produtivo, desde a criação até a distribuição de um produto agrícola.
