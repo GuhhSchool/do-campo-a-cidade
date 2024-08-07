@@ -1,0 +1,110 @@
+A tecnologia
+Para começar, qual nome de usuário você gostaria de usar?
+
+A tecnologia
+Dia 12 de setembro de 2004 nasce uma linda criança chamada G{nome}.
+
+A tecnologia
+G{nome} veio de uma família simpática, tendo em seu coração o sonho de trabalhar na área:
+	1. Do campo
+	2. Da cidade
+
+# CAMPO
+A tecnologia no campo
+Vendo sua família diariamente cuidando da roça, G{nome} cresceu com orgulho, amando o campo.
+
+A tecnologia no campo
+Passado um tempo, G{nome} cresce e começa o seu primeiro trabalho no campo: plantar soja.
+
+A tecnologia no campo
+Na hora de irrigar a soja, teve uma dúvida de quais equipamentos usar:
+	1. Uma mangueira - para evitar gastos
+	2. Um irrigador automático - para evitar esforços
+
+1. Mangueira - A tecnologia no campo 
+G{nome} se esforça em irrigar a soja periodicamente vendo seu crescimento um pouco irregular mas belo!
+
+2. Irrigador - A tecnologia no campo 
+Apesar de ter gastado um pouco de dinheiro, G{nome} automatiza a irrigação da soja e vê o crescimento regular e belo da planta sem ter feito muito esforço!
+
+A tecnologia no campo
+Chegada a hora da colheita, G{nome} pega a colheitadeira do pai que, pela quantidade de colheitas já feita, está em péssimas condições.
+
+A tecnologia no campo
+Um grande amigo de G{nome} vê a situação e faz uma proposta de parceria onde emprestaria uma colheitadeira moderna em troca de 15% do plantio colhido.
+	1. Aceitar a proposta - evitar dor de cabeça
+	2. Recusar a proposta - evitar perda desnecessária da plantação
+
+1. Aceitar a proposta - A tecnologia no campo
+G{nome} aceita a proposta e, em pouco tempo, colhe toda a plantação e separa a quantia do seu amigo.
+
+2. Recusar a proposta - A tecnologia no campo
+G{nome} recusa gentilmente a proposta do amigo e, durante a colheita, a máquina de seu pai para de funcionar.
+
+2. Recusar a proposta - A tecnologia no campo
+Depois de horas no sol, tentando consertar a máquina com seu pai, ela volta a funcionar! 
+
+2. Recusar a proposta - A tecnologia no campo
+Mas já é tarde e G{nome} decide concluir no dia seguinte, porém feliz por ter 100% do proveito da colheita.
+
+A tecnologia no campo
+No caminho para vender sua soja, G{nome} reflete sobre suas decisões e tem a conclusão de que:
+	1. Usar mangueira aparenta ser a melhor solução; Parcerias não são boas opções pois pegam parte dos seus produtos
+	2. Usar mangueira aparenta ser a melhor solução; Parcerias são boas opções pois há a ajuda mútua
+	3. Usar irrigador automático aparenta ser a melhor solução; Parcerias não são boas opções pois pegam parte dos seus produtos
+	4. Usar irrigador automático aparenta ser a melhor solução; Parcerias são boas opções pois há a ajuda mútua
+
+A tecnologia no campo
+Chegando na empresa onde G{nome} venderá a soja, ela oferece um contrato de parceria rural.
+
+A tecnologia no campo
+Chegando na empresa onde G{nome} venderá a soja, ela oferece um contrato de parceria rural durante três anos.
+
+A tecnologia no campo
+A empresa propôs o empréstimo de colheitadeiras modernas em troca de um preço menor pela soja e a venda exclusiva para essa empresa.
+	1. Recusar a proposta - querem muito em troca de pouco
+	2. Aceitar a proposta - o contrato parece interessante
+
+// Essa parte não mostra, apenas modificar no final
+1. Recusar a proposta - A tecnologia no campo
+G{nome} recusa a proposta da empresa e começa a cultivar mais soja seguindo o mesmo método de plantio. Aos poucos foi vendendo para diversas empresas.
+
+1. Recusar a proposta - A tecnologia no campo
+Com o passar dos anos, G{nome} finalmente compra uma nova colheitadeira - que demorou um pouco para comprar por conta dos frequentes reparos à antiga máquina de seu pai.
+
+2. Aceitar a proposta - A tecnologia no campo
+G{nome} aceita a proposta da empresa e, feliz por ter novas máquinas, cultiva mais soja e as colhe seguindo o mesmo método de plantio que achou interessante.
+
+2. Aceitar a proposta - A tecnologia no campo
+Economizando o dinheiro, G{nome} contrata novos agricultores para operar algumas colheitadeiras - já que a empresa oferecia várias delas -.
+
+#Conclusão - Vida no campo
+G{nome} desde a infância gostava do campo e, em sua primeira oportunidade, resolve plantar soja.
+
+1. Para irrigar a soja, G{nome} preferiu usar uma mangueira, no qual teve excesso de esforço e criou algumas plantas irregulares, mas isso não desanimou.
+2. Para irrigar a soja, G{nome} preferiu usar um irrigador automático, no qual ajudou a criar plantas bonitas e evitou excesso de esforço, apesar de ter investido dinheiro.
+
+1. Chegada a colheita, G{nome} preferiu colher a plantação com a colheitadeira moderna e rápida de seu amigo, dando 15% da colheita como recompensa pela parceria. 
+2. Chegada a colheita, G{nome} preferiu colher a plantação com a colheitadeira antiga de seu pai, que deu problemas no percurso e atrasou a colheita, mas felizmente conseguiu colher 100% da soja.
+
+No caminho para vender a soja, G{nome} refletiu e concluiu que
+1. usar a mangueira para irrigar a plantação foi uma boa ideia, apesar do trabalho excessivo e crescimento irregular que causa.
+2. usar um irrigador automático para irrigar a plantação foi uma boa ideia, já que não exige muito esforço e garante o crescimento regular da soja.
+
+Também concluiu que:
+1. ter parcerias sinceras servem como ajuda que fortalecem o crescimento socioeconômico de ambos. Parabéns!
+2. usar parcerias não são boas ideias pois sempre querem tirar proveito de seu esforço.
+
+1. Ao chegar na empresa onde irá vender os produtos, G{nome} recusou um contrato de parceria oferecido pois considerou ser uma prática muito abusiva da empresa, onde disponibilizava muita soja em troca de poucos recursos. 
+
+Após isso, começa a cultivar mais soja seguindo o mesmo método de plantio que considerou o mais útil e, aos poucos, foi vendendo para diversas empresas.
+
+Com o passar dos anos, G{nome} finalmente compra uma nova colheitadeira - que demorou um pouco por conta dos frequentes reparos à antiga máquina de seu pai - E segue sua carreira sendo uma pessoa conservadora, recusando palpites alheios e tendo uma vida tranquila no campo com sua família como sempre sonhou.
+
+2. Ao chegar na empresa onde irá vender os produtos, G{nome} aceitou um contrato de parcerias e, feliz por ter novas máquinas pelo contrato, cultiva mais soja e as colhe seguindo o mesmo método de plantio que achou interessante.
+
+Economizando o dinheiro, G{nome} abre uma empresa e contrata novos agricultores para operar algumas das colheitadeiras também oferecidas pelo contrato.
+
+Com o passar dos anos, com o fim do contrato G{nome} abre novas parcerias com outras empresas que impulsionam sua carreira no campo, que consegue mais terras, trabalhadores e diferentes tipos de plantações. 
+
+G{nome} consegue uma vida rica no campo, assim como era em seu sonho de infância.

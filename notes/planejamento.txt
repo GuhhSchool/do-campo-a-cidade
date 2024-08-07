@@ -1,0 +1,41 @@
+partes
+    introdução: 
+        - header
+        - textinho descrevendo nossas intenções resumidamente
+	- imagem do campo e da cidade
+        - alguma animação
+
+    desenvolvimento:
+        - sessão organizando os produtos clicáveis
+        - como os alimentos são produzidos e entregues à nossa mesa:
+            • produtos flutuantes, animados ao ser clicados
+            • quando o produto é clicado, sai um som do produto caindo
+            • após isso, aparece detalhes animados da produção e entrega do produto à nossa mesa
+
+    conclusão:
+        - encerramento e texto impactante
+        - footer
+
+detalhes
+    - Figma para o design da(s) página(s)
+    - nome do site
+    - ícone
+    - cores
+    - <!-- organizar e documentar -->
+    - fontes
+    - tamanhos da fonte 
+    - limites de tamanho dos itens
+
+pontuação
+    - pseudo-classes (classe:hover) e classes
+    - responsivo
+    - button
+    - div e sections
+    - variáveis no css 
+    - animação
+    - texto, som e imagem autoral
+    - imagem e som com texto alt
+    - ser acessível pelo github (deixar amoatra bonita)
+    - arquivo Read.me
+    - estar no github pages
+    - link do projeto e tópico "agrinho" na sessão "about"

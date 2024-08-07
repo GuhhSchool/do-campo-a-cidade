@@ -1,0 +1,125 @@
+A tecnologia
+Para começar, qual nome de usuário você gostaria de usar?
+
+A tecnologia
+Dia 12 de setembro de 2004 nasce uma linda criança chamada G{nome}.
+
+A tecnologia
+G{nome} veio de uma família simpática, tendo em seu coração o sonho de trabalhar na área:
+	1. Do campo
+	2. Da cidade
+
+# CIDADE
+A tecnologia na cidade
+Desde menor G{nome} mostrou ser diferente dos demais, achando assuntos relacionados a robótica muito interessantes.
+
+Anos se passaram e seus pais decidem dar um pequeno trator que eles ganharam do Sistema Faep.
+
+G{nome}, usando seu conhecimento de robótica, resolve fazer algumas personalizações para tornar o pequeno trator em uma sofisticada colheitadeira.
+
+G{nome} tinha algumas peças guardadas, porém muito desgastadas. Então, para montar a colheitadeira, resolve:
+	1. Comprar peças novas - Evitar que quebrem
+	2. Usar peças atuais - Evitar gastos
+
+1. Comprar peças novas 
+G{nome} decide comprar novas peças com toda a mesada que tinha e monta perfeitamente a nova colheitadeira!
+
+2. Usar peças atuais
+G{nome} decide usar as peças ruins que tinha em casa e monta a nova colheitadeira. 
+
+2. Usar peças atuais
+Mas, na hora de ligar a máquina, a maioria das peças se quebram...
+
+2. Usar peças atuais
+triste, G{nome} resolve comprar novas peças com o dinheiro de toda a mesada que tinha e tenta novamente montar a colheitadeira, pois sempre foi uma pessoa esforçada.
+
+2. Usar peças atuais
+E, Para a surpresa de G{nome}, finalmente tudo funciona!
+
+Com isso, fica muito contente pela nova conquista, mostrando para todos os amigos que tinha.
+
+Um amigo em específico precisava da ajuda de G{nome}, pois a colheitadeira do pai dele estava em péssimas condições.
+
+Ele ofereceria 15% da plantação de soja dele se G{nome} emprestasse a colheitadeira.
+	1. Aceitar proposta - receber plantação
+	2. Recusar proposta - podem estragá-la
+
+1. Aceitar proposta
+G{nome} empresta a colheitadeira ao amigo, que consegue colher todas as plantações e devolve os 15% do plantio.
+
+1. Aceitar proposta
+Com a soja adquirida, G{nome} a vende para recuperar o dinheiro da mesada para fazer novas melhorias na máquina e vendê-la futuramente por um melhor preço.
+
+1. Aceitar proposta
+Em pouco tempo, G{nome} consegue vender a máquina agrícola por um ótimo preço, já que ela parecia muito chamativa e bonita.
+
+2. Recusar proposta
+G{nome} prefere evitar que quebrem sua obra de arte e acaba por não emprestar a colheitadeira que criou, já que pretende vendê-la futuramente.
+
+2. Recusar proposta
+Um longo tempo passou e, com a ajuda dos pais, G{nome} consegue finalmente vender a máquina agrícola.
+
+Para conseguir mais dinheiro, G{nome} segue um pensamento:
+	1. Comprar colheitadeiras e vendê-las mais caro
+	2. Comprar tratores e personalizá-los
+
+1. Comprar colheitadeiras e vendê-las mais caro
+G{nome} junta um pouco mais de dinheiro trabalhando com os pais e compra uma nova colheitadeira para vendê-la mais caro.
+
+1. Comprar colheitadeiras e vendê-las mais caro
+Apesar de parecer uma boa prática, G{nome} demora um pouco para conseguir vender, já os compradores preferem comprar de lugares mais baratos.
+
+2. Comprar tratores e personalizá-los
+G{nome} compra um novo trator e começa a personalizá-lo de acordo o que considerava mais eficiente.
+
+2. Comprar tratores e personalizá-los
+Com essa prática, G{nome} consegue vender abaixo do preço normal de uma colheitadeira e com mais eficiência.
+
+No fim, essa prática é repetida e as coisas melhoram já que começam a reconhecer G{nome}!
+
+Por incentivo dos pais, G{nome} abre uma empresa para vender suas máquinas personalizadas.
+
+E aquele amigo que pediu sua primeira máquina emprestada entra em contato oferecendo um contrato de parceria de três anos.
+
+No contrato, G{nome} emprestaria colheitadeiras para ele se ele te vendesse as sojas dele por um menor preço e trabalhasse somente com sua empresa.
+	1. Aceitar oferta - ter planos para a soja
+	2. Recusar oferta - só trabalhar com máquinas
+
+// não mostrar essa parte, apenas customizar no final
+1. Aceitar oferta
+G{nome} aceita a oferta já que tem várias máquinas agrícolas, expandindo seu negócio para a venda de soja também, podendo revender a soja abaixo do preço do mercado mantendo uma margem de lucro!
+
+1. Aceitar oferta
+Perto de finalizar o contrato, o amigo G{nome} finalmente compra uma máquina da empresa, mas ambos felizes pela parceria durante os três anos.
+
+2. Recusar oferta
+G{nome} recusa gentilmente a oferta já que trabalha apenas com personalização de tratores para máquinas agrícolas, acreditando que entrar em outras áreas não é o seu foco.
+
+#Conclusão - Vida na cidade
+G{nome} nasceu em uma pequena cidade e desde sua infância gostava de mexer com robótica.
+
+Com o tempo, ganhou um trator dos seus pais e quis transformá-lo em uma colheitadeira.
+
+1. Então, usando um dinheiro que tinha guardado, G{nome} comprou as novas peças sem arrependimento, pois tinha muito carinho com seu trabalho, e faz tudo funcionar perfeitamente!
+
+2. Então, usando as peças velhas que tinha, G{nome} tentou montá-la, mas sem sucesso pois as peças quebraram... Então foi obrigado a usar seu dinheiro guardado para comprar novas peças e montou sua colheitadeira que, com um pouco de esforço, fez funcionar!
+
+1. Após mostrar para todos seus amigos, G{nome} aceitou a proposta de um amigo onde o amigo deu 15% dos plantios em troca da colheitadeira personalizada emprestada, ajudando o amigo e recuperando o dinheiro investido nas peças da máquina para melhorá-la e vendê-la por um preço melhor.
+
+2. Após mostrar para todos seus amigos, um amigo ofereceu 15% das colheitas dele em troca da máquina de G{nome} emprestada. Porém, a proposta foi recusada pois G{nome} ficou com medo de que estraguem sua colheitadeira.
+
+1. Para ganhar mais dinheiro, G{nome} resolveu comprar mais colheitadeiras para vendê-las mais caro, apesar da demora pois os compradores preferiram comprar de lugares mais barato.G{space}De qualquer forma, com o tempo G{nome} conseguiu repetir mais vezes essas compras e vendas de colheitadeiras.
+
+2. Para ganhar mais dinheiro, G{nome} resolveu comprar tratores e personalizá-los para ter lucro mesmo vendendo abaixo do valor de uma colheitadeira normal.G{space}Essa ideia foi tão boa que rapidamente vendeu a máquina, fazendo G{nome} repetir várias vezes essas compras, personalizações e venda.
+
+Por incentivo dos pais G{nome} abriu uma empresa para continuar seu grande trabalho com as colheitadeiras. E, entre as vendas, o antigo amigo apareceu novamente querendo fazer uma parceria onde venderia a soja dele por um preço menor e só para sua empresa se G{nome} emprestasse colheitadeiras.
+
+1. Mesmo com G{nome} tendo o foco em colheitadeiras, aceitou a parceria pois teve ideias de revender a soja por um preço abaixo do mercado, mantendo uma margem de lucro para comprar e vender tranquilamente novas colheitadeiras. Além disso, teve um parceiro fixo por três anos para caso as coisas na empresa complique.
+
+1. Em pouco tempo G{nome} conseguiu fama, expandindo seu trabalho contratando mais funcionários e comprando várias máquinas de uma só vez.
+
+1. Por conta dessa decisão, G{nome} faz grandes parcerias no futuro já que experimentou isso no passado, fortalecendo relações entre o campo e cidade, tendo seu grande sonho de infância realizado.
+
+2. G{nome} gentilmente recusou a parceria com o amigo pois trabalhava somente com colheitadeiras e, apesar de perder uma chance de parceria, não desanimou e continuou vendendo suas máquinas agrícolas.
+
+2. Com o passar dos anos, G{nome} foi crescendo de forma independente no seu próprio ritmo, vivendo o sonho que tanto queria quando menor.
