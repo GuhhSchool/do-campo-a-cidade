@@ -12,7 +12,7 @@ Pensando nisso, foi criado este projeto para mostrar as etapas e destacar a impo
 </br>
 
 > [!IMPORTANT]
-> • Projeto concluído totalmente por [Gustavo Proença](https://github.com/GuhhSchool). </br>
+> • Projeto concluído por [Gustavo Proença](https://github.com/GuhhSchool). </br>
 > • Nas residências de Campo Largo - Região Metropolitana de Curitiba
 </br>
 
