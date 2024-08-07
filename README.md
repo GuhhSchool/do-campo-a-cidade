@@ -1,6 +1,6 @@
 # Do Campo à Cidade: a Relação da Tecnologia
 O agronegócio[^1] é um dos maiores fatores que constituem nossa sobrevivência, pois é responsável por grande parte da alimentação não somente do Brasil, mas do mundo.</br></br>
-Pensando nisso, foi criado este projeto para mostrar as etapas e destacar a importância tanto da área rural quanto do espaço urbano no processo de alimentação mundial.</br></br>
+Pensando nisso, foi criado este projeto para mostrar as etapas e destacar a importância tanto da área rural quanto do espaço urbano no processo de produção mundial.</br></br>
 
 <hr>
 
