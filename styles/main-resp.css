@@ -51,7 +51,7 @@
     }
 
     .div__start--anim:hover::before {
-        bottom: -8vw;
+        bottom: -50px;
         opacity: 1;
     }
 
