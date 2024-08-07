@@ -1,0 +1,651 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;500&family=Kanit:wght@300;400;500&display=swap');
+
+/* Armazenar Variáveis */
+:root {
+    --color-header: linear-gradient(90deg, #092311 0%, #020E02 100%);
+    --color-background-footer: #000B0E;
+    --color-transition: linear-gradient(180deg, #020E02 40%, #525300 100%); 
+    --color-background-primary: #000E00;
+    --color-background-secundary: linear-gradient(180deg, #001800 0%, #001115 100%); 
+    --color-background-secundary-backup: #001800;
+    --color-background-tertiary: #001115;    
+    --color-text-main: #FFFFFF;
+    --color-text-footer: #BFBFBF;
+    --color-text-green: #15BD30;
+    --color-text-blue: #42C8E5;
+    --color-text-link: #4260e5;
+    --color-text-brown: #B24B00;
+    --color-transparent: #ffffff00;
+    --font-title: "K2D", sans-serif;
+    --font-text: "Kanit", sans-serif;
+}
+
+/* ? SESSÕES */
+
+/* * Sessão Start */
+.section__start {
+    margin-bottom: 140px;    
+}
+
+.div__start--imagens {
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+}
+
+.img__start {
+    width: 25vw;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.img__start--plantacao {
+    position: relative;
+    margin-right: 13px;
+    box-shadow: 5px 5px 10px 5px #000000;
+}
+
+.img__start--cidade {
+    position: relative;
+    margin-left: 13px;
+}
+
+/* Transições */
+.h1__start--anim {
+    opacity: 0;
+    animation: start 1s forwards 0.5s;
+}
+
+.div__start--imagens-anim {
+    opacity: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translateY(20px);
+    animation: start 1s forwards 1s;
+}
+
+.div__start--imagens-anim:hover img {
+    transform: translate(0, 0);
+    box-shadow: none;
+}
+
+.div__start--imagens-anim img {
+    transition: transform 0.5s, z-index 1s, box-shadow 0.5s;
+}
+
+.div__start--imagens-anim img:hover {
+    transform: scale(1.15);
+    z-index: 1;
+    box-shadow: 0 0 20px black;
+}
+
+.img__start--anim-1 {
+    transform: translate(-10vw, 25px);
+    position: relative;
+}
+
+.img__start--anim-2 {
+    transform: translate(10vw, -25px);
+}
+
+.div__start--anim::before {
+    position: absolute;
+    transform: translateY(4vw);
+    opacity: 0;
+
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.div__start--anim-1::before {
+    content: "Espaço com elementos urbanos";
+}
+
+.div__start--anim-2::before {
+    content: "Espaço com elementos naturais";
+}
+
+.div__start--anim:hover::before {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* * Sessão: Oportunidades */
+.section__oportunidades {
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 180px;
+}
+
+.div__oportunidades--textos {
+    display: flex;
+    width: 75vw;
+    min-width: 850px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.p__oportunidades--texto {
+    font-weight: 400;
+    width: 395px;
+    margin: 0;
+}
+
+.p__oportunidades--texto-2 {
+    align-self: flex-end;
+}
+
+.div__oportunidades--textos-conclusoes {
+    text-align: center;
+    margin: 0;
+}
+
+.p__oportunidades--conclusao {
+    font-weight: 400;
+    letter-spacing: 0.025em;
+}
+
+/* Transições */
+.p__oportunidades--1-pre {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.p__oportunidades--2-pre {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.p__oportunidades--3-pre, .p__oportunidades--4-pre {
+    opacity: 0;
+}
+
+.div__oportunidades--textos p {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.p__oportunidades--conclusao {
+    transition: opacity 0.5s;
+}
+
+.p__oportunidades--texto-1:hover {
+    transform: translateX(-20px);
+}
+
+.p__oportunidades--texto-2:hover {
+    transform: translateX(20px);
+}
+
+/* * Sessão História */
+.section__history {
+    position: relative;
+    padding-top: 70px;
+}
+
+.section__history h1 {
+    margin-bottom: 120px;
+}
+
+.div__history--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.div__history--caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 700px; 
+    max-width: 75vw;
+    font-size: 24px;
+    border: 2px solid var(--color-text-green);
+    border-radius: 10px;
+}
+
+.p__history--texto {
+    margin-bottom: 2em;
+}
+
+.section__history img {
+    height: 10vw;
+    align-items: center;
+}
+
+.button__history--iniciar {
+    background-color: transparent;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    position: relative;
+
+    transition: transform 0.25s, height 0.5s;
+}
+
+/* Transições */
+.button__history--iniciar::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 2px solid var(--color-text-blue);
+    background-color: var(--color-background-tertiary);
+    z-index: -1;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+
+    transition: height 0.25s 0.25s, opacity 0.25s 0.25s, border-radius 0.25s;
+}
+
+.button__history--iniciar::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 2px solid var(--color-text-green);
+    background-color: var(--color-background-secundary-backup);
+    z-index: -1;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    width: 0;
+    opacity: 0;
+
+    transition: width 0.5s 0.5s, opacity 0.5s 0.5s, border-radius 0.25s 1s;
+}
+
+.button__history--iniciar:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.button__history--iniciar:hover::after {
+    height: 0%;
+    border-radius: 0%;
+}
+
+.button__history--iniciar:hover::before {
+    width: 100%;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.section__history img { 
+    animation: decrease-increase 2s ease-in-out infinite alternate-reverse;
+}
+
+/* * Sessão: Efeito */
+.section__efeito {
+    display: flex;
+    background-image: var(--color-transition);
+    margin-bottom: 0;
+}
+
+.img__efeito--onda {
+    width: 100%;
+}
+
+.div__efeito--arvores {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.img__efeito--arvore {
+    width: 10vw;
+}
+
+/* * Sessão: 2023 */
+.section__2023 {
+    background-color: var(--color-background-secundary-backup);
+    background-image: var(--color-background-secundary);
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.h1__2023-title {
+    margin-bottom: 104px;
+}
+
+.div__2023--caixa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 221px;
+}
+
+.div__2023--caixa-1 {
+    flex-direction: row-reverse;
+}
+
+.img__2023--imagem {
+    width: 27vw;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.div__2023--textos {
+    max-width: 28vw;
+    min-width: 400px;
+    margin-right: 100px;
+    font-size: 24px;
+    opacity: 1;
+
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.div__2023--textos-1 {
+    margin-right: 0;
+    margin-left: 100px;
+}
+
+.div__2023--textos h2 {
+    margin-bottom: 50px;
+}
+
+/* Transições */
+.div__2023--textos p {
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.p__2023--pre-1 {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.p__2023--pre-2 {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.img__2023--anim {
+    transition: transform 0.5s, box-shadow 0.25s;
+}
+
+.img__2023--anim:hover {
+    transform: scale(1.1);
+    box-shadow: 30px 20px 10px 10px rgb(0, 0, 0);
+}
+
+/* * Sessão: Ponte */
+.section__ponte {
+    background-color: var(--color-background-tertiary);
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.div__ponte--content {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div__ponte-textos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.p__ponte-texto {
+    font-size: 24px;
+    width: 30vw;
+    min-width: 400px;
+    margin-bottom: 80px;
+}
+
+.div__ponte--imagem {
+    width: 50px;
+}
+
+.img__ponte--producao {
+    width: 120%;
+    transform: translateY(-30px);
+    align-self: self-start;
+}
+
+/* * Sessão: Percurso */
+.section__percurso {
+    background-color: var(--color-background-tertiary);
+    margin-bottom: 0;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.section__percurso h1 {
+    margin-bottom: 75px;
+}
+
+.div__percurso--botoes {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.button__percurso {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 150px;    
+    height: 230px;
+    margin: 80px;
+    cursor: pointer;
+}
+
+.button__percurso p {
+    font-size: 2vw;
+    font-weight:500;
+}
+
+.img__percurso--button {
+    position: absolute;
+    top: 15%;
+    width: 70px;
+    margin-top: 52px;
+}
+
+/* Transições */
+.div__percurso--botoes button {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    transition: background-size 0.25s, background-color 0.25s;
+}
+
+.div__percurso--botoes button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+
+    transition: background-position-x 0.5s;
+}
+
+.div__percurso--botoes button:hover {
+    background-size: 5%;
+}
+
+.div__percurso--botoes button:hover::before {
+    background-position-x: -100px;
+}
+
+.button__percurso-anim {
+    background-image: linear-gradient(90deg, var(--color-text-green) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-green) 90%, var(--color-text-green) 100%);
+    border-right: 1px solid var(--color-text-green);
+}
+
+.button__percurso-anim-2 {
+    background-image: linear-gradient(90deg, var(--color-text-brown) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-brown) 90%, var(--color-text-brown) 100%);
+    border-right: 1px solid var(--color-text-brown);
+}
+
+.button__percurso-anim-3 {
+    background-image: linear-gradient(90deg, var(--color-text-blue) 10%, hsla(0, 0%, 100%, 0.1) 10%, #ffffff00 90%, var(--color-text-blue) 90%, var(--color-text-blue) 100%);
+    border-right: 1px solid var(--color-text-blue);
+}
+
+.button__percurso img {
+    transition: width 0.25s 0.125s;
+}
+
+.button__percurso:hover img {
+    width: 80px;
+}
+
+.div__percurso--botoes button::after {
+    content: "";
+    background-image: url('../icons/fechadura.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    background-size: 8%;
+    background-position: 100% 99%; 
+    bottom: 50%;
+
+    transition: background-position-x 0.25s, background-size 0.25s;
+}
+
+.div__percurso--botoes button:hover::after {
+    background-position-x: 5%;
+    background-size: 0;
+}
+
+.button__percurso--click img {
+    animation: button-click 0.5s
+}
+
+/* * Sessão: Finalização */
+.section__finalizacao {
+    background-color: var(--color-background-tertiary);
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.h1__finalizacao--title {
+    margin-bottom: 80px;
+}
+
+.div__finalizacao--textos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50vw;
+}
+
+.p__finalizacao--texto {
+    width: 40vw;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.p__finalizacao--texto-2 {
+    align-self: end;
+}
+
+.img__finalizacao--detalhe {
+    display: none;
+}
+
+
+.div__finalizacao--exemplo {
+    margin-top: 20px;
+    margin-bottom: 135px;
+    border: 1px solid var(--color-text-green);
+    border-radius: 7px;
+    cursor: pointer;    
+}
+
+.div__finalizacao--exemplo a {
+    text-decoration: none;
+}
+
+.div__finalizacao--exemplo p {
+    font-size: 26px;
+    padding: 0.2vw 1vw;
+}
+
+/* Transições */
+.h1__finalizacao--dash-anim {
+    animation: think 0.5s ease-in-out 1s infinite forwards alternate;
+}
+
+.div__finalizacao--exemplo-anim {
+    background-image: linear-gradient(180deg, hsla(130, 80%, 41%, 0.1) 0%, hsla(130, 80%, 41%, 0.1) 100%);
+    background-size: 100%;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+
+    transition: background-position 0.5s;
+}
+
+.div__finalizacao--exemplo-anim:hover {
+    background-position-y: 0;
+}
+
+/* ? ANIMAÇÕES */
+@keyframes start {
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes think {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes up {
+    to {
+        transform: translateY(100px);
+    }
+}
+
+@keyframes button-click {
+    50% {
+        transform: translateY(-1vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes decrease-increase {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}

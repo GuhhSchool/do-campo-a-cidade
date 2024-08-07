@@ -1,0 +1,156 @@
+/* Armazenar Variáveis */
+:root {
+    --color-text-green: #15BD30;
+    --color-text-blue: #42C8E5;
+}
+
+/* ? Design para celulares */
+@media screen and (max-width: 768px) {
+    /* Configurações Globais */
+    * {
+        font-size: 20px;
+    }
+
+    body::-webkit-scrollbar {
+        width: 1vw;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+    
+    .decore-link {
+        text-decoration: underline;
+        border-bottom: none;
+        border-image-width: 1;
+    }
+
+
+    /* ? SESSÕES */
+    /* * Sessão: Header */
+    header {
+        height: auto;
+        margin-bottom: 20vw;
+    }
+
+    .div__header--itens {
+        width: 100%;
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-content: space-around;
+    }
+
+    .img__header--logo {
+        justify-self: center;
+        width: 15vw;
+    }
+
+    .nav__header--textos {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        padding: 1vw 0;
+    }
+
+    .a__header--texto {
+        font-size: 18px;
+        width: fit-content;
+    }
+
+    /* * Sessão: footer */
+    footer {
+        height: auto;
+    }
+
+    .div__footer {
+        padding-top: 15px;
+        flex-direction: column;
+        min-width: auto;
+    }
+
+    .div__footer--textos p, .div__footer--textos a {
+        font-size: 16px;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .button__footer--voltar {
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .span__footer--icone-voltar {
+        width: 7vw;
+        height: 7vw;
+        margin-right: 1vw;
+    }
+
+    .button__footer--voltar-anim:hover span {    
+        animation: toTop 1s forwards;
+    }
+
+    .button__footer--voltar p {
+        font-size: 16px;
+    }
+
+    .img__footer--logo {
+        display: none;
+    }
+
+    /* ? Animações */
+    @keyframes toTop {
+        33% {
+            transform: scale(1.15);
+            background-position-y: 0px;
+        }
+    
+        66% {
+            transform: scale(1.15);
+            background-position-y: -7vw;
+        }
+    
+        100% {
+            transform: scale(1);
+            background-position-y: -7vw;
+        }
+    }
+}
+
+/* ? Design para tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* ? Configurações Globais */
+    body::-webkit-scrollbar {
+        width: 1vw;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+    
+    p {
+        font-size: 30px;
+    }
+
+    /* ? SESSÕES */
+    /* * Sessão: Header */
+    header {
+        margin-bottom: 100px;
+    }
+
+    /* * Sessão: Footer */
+    .div__footer {
+        width: 90vw;
+        min-width: 400px;
+    }
+}

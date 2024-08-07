@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;500&family=Kanit:wght@300;400;500&display=swap');
+
+/* Armazenar Variáveis */
+:root {
+    --color-background: #000e00;
+    --color-background-box: rgb(20, 56, 26);
+    --color-title: #ffffff;
+    --color-text: #b6b6b6;
+    --color-text-input: #838383;
+    --color-text-green: #15BD30;
+    --color-border: #15BD30;
+    --color-contrast: #15BD30;
+    --color-button-on: #15BD30;
+    --color-button-off: #002200;
+    --color-text-link: #4260e5;
+    --font-title: "K2D", sans-serif;
+    --font-text: "Kanit", sans-serif;
+}
+
+/* Configurações globais */
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/background_history.png'); 
+    background-color: var(--color-background);
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    animation: showText 1s forwards;
+}
+
+footer {
+    display: none;
+}
+
+h2 {
+    color: var(--color-title);
+    font-size: 40px;
+    text-align: center;
+    max-width: 75%;
+    margin-bottom: 1em;
+}
+
+p, span {
+    font-family: var(--font-text);
+    justify-content: start;
+    font-size: 20px;
+}
+
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    font-family: var(--font-title);
+    border: solid 1px var(--font-text);
+    color: var(--color-text);
+    background-color: var(--color-button-off);
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px solid white;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: var(--color-button-on);
+    color: black;
+}
+
+.color-yellow {
+    color: var(--color-contrast);
+}
+
+.text-invisible {
+    opacity: 0;
+    animation: showText 0.5s forwards;
+}
+
+/* Sessão: Caixa */
+.div--main {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: start;
+    background: transparent;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+.div--anim-background {
+    padding: 0 20px;
+    position: absolute;
+    max-width: 600px;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: var(--color-background-box);
+    border: 2px solid var(--color-border);
+    border-radius: 15px;
+    transition: height 0.5s;
+}
+
+.p--text {
+    color: var(--color-text);
+    width: inherit;
+    min-width: 400px;
+    padding: 30px;
+
+    border: 2px solid var(--color-border);
+    border-left: none;
+    border-right: none;
+    border-radius: 15px; 
+
+    position: relative;
+    transition: opacity 0.5s;
+    margin-bottom: 1.5em;
+}
+
+.div--buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.div--input {
+    width: 95%;
+    height: fit-content;
+    position: relative;
+    transition: opacity 0.5s;
+}
+
+.input--name {
+    background-color: transparent;
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-family: var(--font-title);
+    border-radius: 10px;
+    color: var(--color-button-on);
+    border-color: var(--color-border);
+    background-color: var(--color-button-off);
+    padding-left: 10px;
+
+    transition: font-size 0.2s;
+}
+
+.input--name::placeholder {
+    width: 80%;
+    color: var(--color-text-input);
+}
+
+.input--name:focus {
+    outline: none;
+    font-size: 20px;
+}
+
+.button--send {
+    cursor: pointer;
+    position: absolute;
+    bottom: 6.5%;
+    left: 94%;
+    width: 40px;
+    margin: 0;
+    transition: width 0.25s;
+    background-color: var(--color-button-on);
+    color: black;
+}
+
+.button--send:hover {
+    width: 45px;
+}
+
+.div--interactions {
+    display: flex;
+    flex-direction: column;
+}
+
+.div--interactions {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+.button--share {
+    margin-top: 0;
+    position: relative;
+}
+
+.button--share-clicked, .button--share-clicked:hover {
+    background-color: var(--color-text-link);
+    color: black;
+    cursor: default;
+}
+
+.button--retry {
+    position: relative;    
+}
+
+/* PARA CELULARES */
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    p, span {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .input--name {
+        font-size: 20px;
+    }
+
+    .div--main {
+        justify-content: start;
+        padding: 20px;
+        width: 80vw;
+        height: auto;
+        transition: height 0.5s;
+    }
+
+    .div--anim-background {
+        width: 80vw;
+        height: auto;
+    }   
+
+    .div--input {
+        width: 80%;
+        padding: 0 20px;
+    }
+
+    .button--send {
+        left: 87%;
+    }
+
+    .p--text {
+        width: 80%;
+        padding: 20px;
+        min-width: auto;
+    }
+
+    .img--restart {
+        top: 94%;
+    }
+}
+
+/* ANIMAÇÕES */
+@keyframes showText {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes oneLap {
+    to {
+        transform: rotate(-360deg);
+    }
+}

@@ -1,0 +1,629 @@
+/* Armazenar Variáveis */
+:root {
+    --color-text-green: #15BD30;
+    --color-text-blue: #42C8E5;
+}
+
+/* ? Design para celulares */
+@media screen and (max-width: 768px) {
+    /* * Sessão: Start */
+    .div__start--imagens {
+        margin-top: 0px;
+    }
+
+    .img__start {
+        width: 60vw;
+    }
+
+    .div__start--imagens {
+        flex-direction: column-reverse;
+    }
+
+    .img__start--plantacao {
+        margin-right: 0;
+        box-shadow: 5px 5px 10px 5px #000000;
+    }
+
+    .img__start--cidade {
+        margin-left: 0;
+        box-shadow: 5px 5px 10px 5px #000000;
+    }
+
+    /* Transições */
+    .img__start--anim-1 {
+        transform: translateY(-100px);
+    }
+
+    .img__start--anim-2 {
+        transform: translateY(60px);
+    }
+
+    .div__start--anim {
+        position: relative;
+    }
+
+    .div__start--anim::before {
+        bottom: 5vw;
+        font-size: 15px;
+        width: 80%;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    .div__start--anim:hover::before {
+        bottom: -8vw;
+        opacity: 1;
+    }
+
+    /* * Sessão: Oportunidades */
+    .section__oportunidades {
+        height: auto;
+        margin-bottom: 80px;
+    } 
+
+    .section__oportunidades h1 {
+        margin-bottom: 80px;
+    }
+
+    .div__oportunidades--textos {
+        flex-direction: column;
+        border-left: 1px solid var(--color-text-green);
+        border-right: 1px solid var(--color-text-green);
+        width: 75vw;
+        min-width: 75vw;
+        padding: 2vw 4vw;
+        position: relative;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .p__oportunidades--texto {
+        width: fit-content;
+    }
+
+    .p__oportunidades--texto-2 {
+        align-self: start;
+        margin-top: 40px;
+    }
+
+    .div__oportunidades--textos-conclusoes {
+        margin-top: 80px;
+        width: 75vw;
+        text-align: start;
+        border-left: 1px solid var(--color-text-blue);
+        border-right: 1px solid var(--color-text-blue);
+        padding: 2vw 4vw;
+        border-radius: 15px;
+    }
+
+    .p__oportunidades--conclusao {
+        margin-bottom: 40px;
+        width: fit-content;
+    }
+
+    .p__oportunidades--conclusao:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Transições */
+    .p__oportunidades--texto-1:hover, .p__oportunidades--texto-2:hover {
+        transform: translateX(0);
+    }
+
+    /* * Sessão: History */
+    .section__history {
+        margin-bottom: 140px;
+    }
+
+    .section__history img {
+        position: absolute;
+    }
+
+    .div__history--content {
+        position: relative;
+    } 
+
+    .img__history--1 {
+        left: 10%;
+        bottom: 5%;
+    }
+
+    .img__history--2 {
+        right: 10%;
+        bottom: 5%;
+    }
+
+    /* * Sessão: Efeito */
+    .div__efeito--arvores {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img__efeito--arvore {
+        width: 125px;
+    }
+
+    .img__efeito--arvore-2 {
+        display: none;
+    }
+
+    /* * Sessão: 2023 */
+    .div__2023--caixa {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .div__2023--textos {
+        width: 80vw;
+        min-width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .div__2023--image-anim {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img__2023--imagem {
+        width: 80vw;
+    }
+
+    /* * Sessão: Ponte */
+    .div__ponte--content {
+        width: 90%;    
+    }
+
+    .div__ponte-textos {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .p__ponte-texto {
+        width: 60vw;
+        min-width: 60vw;
+        font-size: 20px;
+    }
+
+    .div__ponte--imagem {
+        width: 15vw;
+    }
+
+    .img__ponte--producao {
+        width: 100%;
+        transform: translateY(0);
+    }
+
+    /* * Sessão: percurso */
+    .div__percurso--botoes {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+    }
+
+    .button__percurso {
+        width: 30vw;
+        height: 40vw;
+        margin: 40px 30px;
+        margin-bottom: 60px;
+    }
+
+    .button-2, .button-5, .button-8 {
+        grid-column: span 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .button__percurso p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .img__percurso--button {
+        width: 13vw;
+    }
+
+    /* Transições */
+    .button__percurso:hover img {
+        width: 16vw;
+    }
+
+    /* * Sessão: finalização */
+    .div__finalizacao--textos {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .p__finalizacao--texto {
+        width: 80vw;
+        margin: 0;
+    }
+
+    .img__finalizacao--detalhe {
+        width: 80vw;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .p__finalizacao--texto:last-child {
+        margin-bottom: 0px;
+    }
+
+    .div__finalizacao--exemplo {
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .div__finalizacao--exemplo p, .div__finalizacao--exemplo span {
+        font-size: 20px; 
+    }
+}
+
+/* ? Design para tablets */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* * Sessão Start */
+    .section__start {
+        margin-bottom: 250px;
+    }
+
+    .div__start--imagens {
+        padding-bottom: 4vw;
+        padding-top: 2vw;
+        margin-top: 125px;
+    }
+
+    .img__start {
+        width: 40vw;
+        border-radius: 2vw;
+        margin-top: 50px;
+    }
+
+    .img__start--plantacao {
+        position: relative;
+        box-shadow: 10px 10px 20px 10px #000000;
+    }
+
+    .img__start--cidade {
+        margin-left: 13px;
+    }
+
+    /* Transições */
+    .h1__start--anim {
+        opacity: 0;
+        animation: start 1s forwards 0.5s;
+    }
+
+    .div__start--imagens-anim {
+        opacity: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        transform: translateY(20px);
+        animation: start 1s forwards 1s;
+    }
+
+    .div__start--imagens-anim:hover img {
+        transform: translate(0, 0);
+        box-shadow: none;
+        filter: blur(4px);
+    }
+
+    .div__start--imagens-anim img {
+        transition: transform 0.5s, filter 0.5s, z-index 1s, box-shadow 0.5s;
+    }
+
+    .div__start--imagens-anim img:hover {
+        filter: none;
+        transform: scale(1.15);
+        z-index: 1;
+        box-shadow: 0 0 20px black;
+    }
+
+    .img__start--anim-1 {
+        transform: translate(-15vw, 25px);
+    }
+
+    .img__start--anim-2 {
+        transform: translate(15vw, -25px);
+    }
+
+    .div__start--anim::before {
+        transform: translateY(4vw);
+        opacity: 0;
+        font-size: 20px;
+
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .div__start--anim:hover::before {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    /* * Sessão: Oportunidades */
+    .section__oportunidades {
+        height: auto;
+        margin-bottom: 80px;
+    } 
+
+    .section__oportunidades h1 {
+        margin-bottom: 80px;
+    }
+
+    .div__oportunidades--textos {
+        flex-direction: column;
+        border-left: 1px solid var(--color-text-green);
+        border-right: 1px solid var(--color-text-green);
+        width: 75vw;
+        min-width: 75vw;
+        padding: 2vw 4vw;
+        position: relative;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .p__oportunidades--texto {
+        width: fit-content;
+    }
+
+    .p__oportunidades--texto-2 {
+        align-self: start;
+        margin-top: 40px;
+    }
+
+    .div__oportunidades--textos-conclusoes {
+        margin-top: 80px;
+        width: 75vw;
+        text-align: start;
+        border-left: 1px solid var(--color-text-blue);
+        border-right: 1px solid var(--color-text-blue);
+        padding: 2vw 4vw;
+        border-radius: 15px;
+    }
+
+    .p__oportunidades--conclusao {
+        margin-bottom: 40px;
+        width: fit-content;
+    }
+
+    .p__oportunidades--conclusao:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Transições */
+    .p__oportunidades--texto-1:hover, .p__oportunidades--texto-2:hover {
+        transform: translateX(0);
+    }
+
+    /* * Sessão: History */
+    .section__history img {
+        position: absolute;
+    }
+
+    .div__history--content {
+        position: relative;
+    } 
+
+    .img__history--1 {
+        left: 15%;
+        bottom: 5%;
+    }
+
+    .img__history--2 {
+        right: 15%;
+        bottom: 5%;
+    }
+
+    /* * Sessão: Efeito */
+    .div__efeito--arvores {
+        width: 70vw;
+        transform: translateY(50px);
+    }
+
+    .img__efeito--arvore {
+        width: 150px;
+    }
+
+    .img__efeito--arvore-2 {
+        display: none;
+    }
+
+        
+    /* * Sessão: 2023 */
+    .section__2023 {
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
+
+    .h1__2023-title {
+        margin-bottom: 104px;
+    }
+
+    .div__2023--caixa {
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 221px;
+    }
+
+    .div__2023--caixa-1 {
+        flex-direction: row-reverse;
+    }
+
+    .img__2023--imagem {
+        width: 300px;
+        min-width: 100px;
+        align-self: center;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 1px var(--color-text-blue);
+    }
+
+    .img__2023--imagem-1 {
+        box-shadow: 0 0 10px 1px var(--color-text-green);
+    }
+
+    .div__2023--textos {
+        max-width: 28vw;
+        min-width: 400px;
+        margin-right: 0;
+        font-size: 24px;
+    }
+
+    .div__2023--textos-1 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .div__2023--textos h2 {
+        margin-bottom: 50px;
+    }
+
+    /* Transições */
+    .img__2023--anim {
+        transition: transform 0.5s, box-shadow 0.25s;
+    }
+
+    .img__2023--anim:hover {
+        box-shadow: 15px 10px 5px 5px rgb(0, 0, 0);
+    }
+
+    /* * Sessão: Ponte */
+    .section__ponte {
+        margin-bottom: 0;
+    }
+
+    .div__ponte--content {
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .div__ponte-textos {
+        margin-bottom: 90px;
+    }
+
+    .p__ponte-texto {
+        font-size: 30px;
+        width: 50vw;
+        min-width: 400px;
+        margin-bottom: 150px;
+    }
+
+    .div__ponte--imagem {
+        width: 70px;
+    }
+
+        
+    /* * Sessão: Percurso */
+    .section__percurso {
+        margin-bottom: 0;
+        padding-top: 70px;
+    }
+
+    .section__percurso h1 {
+        width: 90vw;
+    }
+
+    .div__percurso--botoes {
+        margin: 100px 0;
+        width: 100%;
+    }
+
+    .button__percurso {
+        width: 180px;    
+        height: 240px;
+        margin: 0;
+        margin-bottom: 150px;
+        justify-self: center;
+    }
+
+    .button__percurso p {
+        font-size: 30px;
+        font-weight: 500;
+        width: 90%;
+    }
+
+    .img__percurso--button {
+        top: 20%;
+        width: 80px;
+        margin-top: 52px;
+    }
+
+    /* Transições */
+    .div__percurso--botoes button {
+        transition: background-size 0.25s, background-color 0.25s;
+    }
+
+    .div__percurso--botoes button::before {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+
+        transition: background-position-x 0.5s;
+    }
+
+    .div__percurso--botoes button:hover {
+        background-size: 5%;
+    }
+
+    .div__percurso--botoes button:hover::before {
+        background-position-x: -100px;
+    }
+
+    .button__percurso-anim {
+        border-right: 1px solid var(--color-text-green);
+    }
+
+    .button__percurso-anim-2 {
+        border-right: 1px solid var(--color-text-brown);
+    }
+
+    .button__percurso-anim-3 {
+        border-right: 1px solid var(--color-text-blue);
+    }
+
+    .button__percurso img {
+        transition: width 0.25s 0.125s;
+    }
+
+    .button__percurso:hover img {
+        width: 90px;
+    }
+
+        
+    /* * Sessão: Finalização */
+    .section__finalizacao {
+        padding-top: 40px;
+    }
+
+    .h1__finalizacao--title {
+        margin-bottom: 80px;
+    }
+
+    .div__finalizacao--textos {
+        width: 80vw;
+        align-items: center;
+    }
+
+    .p__finalizacao--texto {
+        width: 80vw;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .img__finalizacao--detalhe {
+        display: flex;
+        width: 80vw;
+    }
+
+    .div__finalizacao--exemplo {
+        margin-top: 75px;
+        margin-bottom: 135px;
+        border-radius: 7px;
+    }
+
+    .div__finalizacao--exemplo p {
+        font-size: 34px;
+        padding: 0.2vw 1vw;
+    }
+}

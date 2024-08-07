@@ -1,0 +1,222 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@400;500&family=Kanit:wght@300;400;500&display=swap');
+
+/* Armazenar Variáveis */
+:root {
+    --color-hr: linear-gradient(90deg, #15BD30, #FFFFFF, #15BD30);
+    --color-text-title-main: linear-gradient(60deg, #FFFFFF 0%, #15BD30 100%);
+    --color-text-title-secundary: linear-gradient(60deg, #FFFFFF 0%, #42C8E5 100%);
+    --color-text-green: #15BD30;
+    --color-text-blue: #42C8E5;
+    --color-text-link: #4260e5;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+.decore-link-2 {
+    text-decoration: none;
+    position: relative;
+}
+
+.decore-link-2::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 7%;
+    background-color: var(--color-text-link);
+    bottom: 5px;
+    border-radius: 10px;
+
+    line-height: 20px;
+    transition: width 0.25s;
+}
+
+.decore-link-2:hover::before {
+    width: 170px;
+}
+
+.hr__content {
+    width: 70%;
+    height: 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    border: none;
+    background-image: var(--color-hr);
+}
+
+/* ? SESSÕES */
+/* * Sessão: Conteúdo */
+.section__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1__content--title {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.h3__item {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: fit-content;
+}
+
+.p__item {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div__content--item {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
+
+.div__content--item h3 {
+    background-image: var(--color-text-title-main);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.div__content--item h3:before {
+    content: "•";
+    position: absolute;
+    color: var(--color-text-green);
+    font-size: 30px;
+    left: -20px;
+}
+
+.ol__content--sub-topics {
+    display: flex;    
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-direction: column;
+    list-style-type: decimal;
+    position: relative;
+}
+
+.ol__content--sub-topics:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 95%;
+    background-color: var(--color-text-blue);
+    left: -6.25%;
+    border-radius: 0px 10px 10px 0;
+}
+
+.h4__sub-item {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: fit-content;
+}
+
+.p__sub-item {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.ol__content--sub-topics h4 {
+    background-image: var(--color-text-title-secundary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.li__content--sub-item {
+    margin-bottom: 40px;
+}
+
+.li__content--sub-item::marker {
+    font-size: 24px;
+}
+
+/* Transições */
+.h1__content--title-anim {
+    opacity: 0;
+    animation: fadeAll 0.25s forwards 0.3s;
+}
+
+.hr__content-anim {
+    width: 0%;
+    animation: fadeAll 0.5s forwards 0.5s;
+}
+
+.div__content--textos-anim {
+    transform: translateY(60px);
+    opacity: 0;
+    animation: fadeUp 0.5s forwards 1s;
+}
+
+/* * Sessão: Curiosidade */
+.div__curiosidade {
+    width: 65vw;
+    padding: 20px 20px;
+    border-top: 1px solid var(--color-text-blue);
+    border-bottom: 1px solid var(--color-text-blue);
+    border-radius: 10px;
+}
+
+.h3__curiosity--title {
+    background-image: var(--color-text-title-secundary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Transições */
+.h3__curiosity--title {
+    position: relative;
+}
+
+.h3__curiosity--title::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 7%;
+    background-color: var(--color-text-link);
+    bottom: 5px;
+    border-radius: 10px;
+
+    line-height: 20px;
+    transition: width 0.25s;
+}
+
+.link::before {
+    width: 100%;
+}
+
+.a__item {
+    cursor: pointer;
+}
+
+/* ? ANIMAÇÕES */
+@keyframes fadeAll {
+    to {
+        width: 70%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
