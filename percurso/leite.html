@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Start -->
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Designs -->
+    <title> Leite | Do Campo à Cidade</title>
+
+    <!-- Link -->
+    <link rel="stylesheet" href="../styles/standard.css">
+    <link rel="stylesheet" href="../styles/products.css">
+    <link rel="stylesheet" href="../styles/standard-resp.css">
+    <link rel="stylesheet" href="../styles/products-resp.css">
+    <link rel="icon" href="../icons/icon.png">
+</head>
+
+<!-- Itens -->
+<body>
+    <!-- Cabeçalho -->
+    <header class="header-anim">
+        <div class="div__header--itens">
+            <img class="img__header--logo img__header--logo-anim" onclick="backToTop(false)" src="../icons/logo.png" alt="Desenho de uma flor em um vaso estampado numa maleta marrom">
+
+            <nav class="nav__header--textos nav__header--textos-anim">
+                <a class="a__header--texto a__header--texto-anim" href="../">Início</a>
+                <a class="a__header--texto a__header--texto-anim" href="../#percurso">Percurso dos produtos</a>
+                <a class="a__header--texto a__header--texto-anim" href="#curiosidade">Curiosidade</a>
+            </nav>  
+        </div>
+    </header>
+
+    <!-- Conteúdo -->
+    <section class="section__content">
+        <h1 class="h1__content--title h1__content--title-anim">Como o leite chega à nossa mesa</h1>
+        <hr class="hr__content hr__content-anim"/>
+
+        <!-- Textos -->
+        <div class="div__content--textos div__content--textos-anim">
+            <div class="div__content--item">
+                <h3 class="h3__item">Produção</h3>
+                <P class="p__item">As vacas que têm filhotes bezerros, criadas em fazendas, são ordenhadas (processo onde é retirado o leite delas). Esse processo se dá geralmente duas vezes ao dia.</P>
+            </div>
+
+            <div class="div__content--item">
+                <h3 class="h3__item">Armazenamento</h3>
+                <P class="p__item">Esse leite é resfriado e armazenados em tanques refrigerados para serem enviados às indústrias.</P>
+            </div>
+
+            <div class="div__content--item">
+                <h3 class="h3__item">Tratamentos:</h3>
+
+                <!-- SubTópicos -->
+                <ol class="ol__content--sub-topics">
+                    <li class="li__content--sub-item">
+                        <h4 class="h4__sub-item">Padronização</h4>
+                        <P class="p__sub-item">É feito o controle de gorduras para obter diferentes tipos de leites: integral, desnatado, semidesnatado.</P>
+                    </li>
+
+                    <li class="li__content--sub-item">
+                        <h4 class="h4__sub-item">Homogenização</h4>
+                        <P class="p__sub-item">Então é feita a quebra de glóbulos de gorduras para tornar o leite mais uniforme e evitar que a nata se separe.</P>
+                    </li>
+                    
+                    <li class="li__content--sub-item">
+                        <h4 class="h4__sub-item">Pasteurização</h4>
+                        <P class="p__sub-item">O leite é aquecido entre 63 °C a 72 °C e resfriado de 4 °C a 10 °C entre 15 a 30 segundos para eliminar microrganismos nocivos à nossa saúde.</P>
+                    </li>
+
+                    <li class="li__content--sub-item">
+                        <h4 class="h4__sub-item">Envasamento</h4>
+                        <P class="p__sub-item">O leite é geralmente embalado em caixinhas com camadas de papel, plástico ou alumínio para evitar contato com a luz, oxigênio e microrganismos.</P>
+                    </li>
+                </ol>
+            </div>
+            
+            <div class="div__content--item">
+                <h3 class="h3__item">Distribuição</h3>
+                <P class="p__item">O leite é armazenado de forma resfriada e, então, entregue para mercados, padarias e outros pontos de vendas para que possamos comprá-lo.</P>
+            </div>
+        </div>
+        <hr class="hr__content"/>
+
+        <!-- Curiosidade -->
+        <div class="div__curiosidade" id="curiosidade">
+            <h3 class="h3__item h3__curiosity--title">Curiosidade</h3>
+            <a target="_blank" class="p__item a__item" href="https://www.tetrapak.com/pt-br/insights/food-categories/dairy/uht-faq#:~:text=O%20que%20%C3%A9%20leite%20longa%20vida%20e%20em%20que%20ele%20difere%20do%20%22leite%20fresco%22%20e%20do%20leite%20cru%3F">Aquela sigla “UHT” em alguns leites significa “Ultra High Temperature” (Temperatura Ultra Alta) e é um processo onde o leite, na etapa de pasteurização, é aquecido em temperaturas mais elevadas ainda (entre 135 °C a 150 °C) e resfriado a menos de 4 °C após 2 a 4 segundos, garantindo maior eliminação de microrganismos nocivos resistentes e garantindo maior tempo de vida útil, batizando esses leites como "leite longa vida" .</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="div__footer">
+            <img src="../icons/logo.png" onclick="backToTop(false)" alt="Desenho de uma flor em um vaso estampado numa maleta marrom" class="img__footer--logo img__footer--logo-anim">
+
+            <div class="div__footer--textos">
+                <p>Projeto feito com carinho para o <a class="color-green decore-link" target="_blank" href="https://www.sistemafaep.org.br/agrinho/">Programa Agrinho</a></p>
+                <p>Por <a class="color-blue decore-link" href="https://github.com/GuhhSchool" target="_blank">Gustavo Proença</a></p>
+            </div>
+
+            <button type="button" onclick="backToTop(true)" class="button__footer--voltar button__footer--voltar-anim">
+                <span class="span__footer--icone-voltar span__footer--icone-voltar-anim"></span>
+                <p class="p__footer--voltar">ir ao topo</p>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="../scripts/main.js"></script>    
+    <script src="../scripts/standard.js"></script>
+</body>
+</html>
