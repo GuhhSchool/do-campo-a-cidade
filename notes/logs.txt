@@ -1,4 +1,4 @@
-Esse arquivo mostra detalhes do progresso da construção do projeto por inteiro para mostrar o pequeno empenho que tive que ter
+Esse arquivo mostra detalhes do progresso da construção do projeto por inteiro para mostrar um pouco do meu empenho
 
 01/05 
     - li os artigos e planejei como será o website teoricamente
